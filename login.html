@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+    <title>LOGIN</title>
+</head>
+<body>
+    
+    <div class="container" >
+        
+        <label for="show"><a href="#home"><i class=" close fas fa-times"></i></a></label>
+        <div class="loginhead">LOGIN</div>
+        <form action="main.html" method="post">
+            
+            <div class="data">
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" required>
+            </div>
+            <div class="data">
+                <label>Username</label>
+                <input type="text" id="abc" placeholder="Enter your username" required>
+            </div>
+            <div class="data">
+                <label>Password</label>
+                <input type="password" placeholder="Enter your password" required>
+            </div>
+            <div class="forgotpass">
+                <a href="#">Forgot Password?</a>
+            </div>
+            <div class="submit-btn"> 
+                <input type="submit"placeholder="Login" class="login" onclick="user()">
+                
+            </div>
+            <div class="text">
+                <label>Create new account?</label><a href="signup.html">Signup Now</a>
+            </div>
+        </form>
+        <p id="xyz"></p>
+    </div>
+    
+    
+</body>
+</html>
